@@ -1,0 +1,44 @@
+1.  GIT Operation
+    -------------
+
+    *   Clone
+        -----
+        => Exact copy of new project from github
+    *   Push
+        ----
+        => New or modified project put into the github
+    *   Pull
+        ----
+        => Take a modified project details from github.
+
+2.  Our system known as local repository and github is called remote repository.
+3.  Add
+    ---
+    *   A project from local disk to staging area called Add
+4.  Commit
+    ------
+    *   A project from staging area to local repository called Commit
+5. push
+**  UNTRACKED FILES:-we r not add file into staging area.
+        Git push commands
+        -----------------
+    i.  git init
+    ii. git status
+    iii.git add .
+    iv. git commit -m "message(what kind of things  can br give)"
+    v.  git remote -v
+    vi. git remote add var("choose any variable") https://github.com/aryamohan7/luminarSiteDesign.git(link from github)
+    vii.git push -u var master
+
+    MODIFIED THE CONTENT IN CODE
+    ----------------------------
+    *   Modified content in CODE
+    *   Otherwise add a file 
+        Github operations
+        ---------------
+        ==> git add .
+        ==> git commit -m "msg"
+        ==> git push -u var(variable) master
+    HOSTING
+    -------
+    *   settings -> pages   ->  branch  ->  change none to master   ->  refresh again and again -> dispaly your project in live
